@@ -12,5 +12,5 @@ X = T * np.sin(T)
 Y = T * np.cos(T)
 
 plt.plot(X, Y, 'r-', x, y, 'bo')
-#plt.show()
-plt.savefig("spiral.jpg")
+plt.show()
+#plt.savefig("spiral.jpg")

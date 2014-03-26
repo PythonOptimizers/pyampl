@@ -12,7 +12,7 @@ You may simply install the [ASL](http://www.ampl.com/netlib/ampl/solvers.tgz) by
     brew install python --universal
     brew tap homebrew/science
     brew install asl
-    make   # Should output config options and create amplfunc.dll
+    make [DEBUG=1]  # Should output config options and create amplfunc.dll
 
 ## Prerequisites
 
@@ -55,4 +55,5 @@ Alternatively, you could use [Gnuplot](http://www.gnuplot.info/) (`brew install 
 
 It's probably a good idea to scan the [official documentation](http://netlib.org/ampl/solvers/funclink/) on how to define external functions in AMPL models.
 
-Most of the magic happens in `funcadd.c`
+Most of the magic happens in
+[`funcadd.c`](https://github.com/dpo/pyampl/blob/master/funcadd.c).

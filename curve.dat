@@ -1,0 +1,7 @@
+data;
+
+let pi := acos(-1.0);
+let q := (4*pi);  # Spiral.
+
+# Initial guess.
+let {i in 0..N+1} t[i] := i/(N+1);

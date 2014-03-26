@@ -41,6 +41,12 @@ The problem described in `curve.mod` consists in finding 25 points on a spiral c
 
     ampl curve.ampl
 
+You should see output similar to
+
+    SNOPT 7.2-5 : Optimal solution found.
+    10 iterations, objective 8.913330871
+    Nonlin evals: obj = 8, grad = 7, constrs = 8, Jac = 7.
+
 This produces `x.dat` and `y.dat`. Running
 
     python plot.py
